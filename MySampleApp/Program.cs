@@ -4,6 +4,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+var SONAR_TOKEN = cfa8775c745e25dd15e0e2c1527558c55f24d391;
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
